@@ -11,7 +11,7 @@ Adapted from the original [Tokyo Night theme for Visual Studio Code](https://git
 2. Run `termux-reload-settings` to apply the theme
 
 ## Colors
-
+***same as file `colors.properties`***
 ```properties
 color0=#414868
 color1=#f7768e
