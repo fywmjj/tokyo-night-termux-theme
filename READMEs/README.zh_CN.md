@@ -1,40 +1,29 @@
-# Termux 东京夜景主题
+# Termux 的 Tokyo Night 主题
+---
+一款简洁、深色的 [Termux](https://termux.dev/) 配色方案，灵感来源于[夜晚东京市中心的灯光](https://www.google.com/search?q=tokyo+night&newwindow=1&sxsrf=ACYBGNRiOGCstG_Xohb8CgG5UGwBRpMIQg:1571032079139&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiayIfIhpvlAhUGmuAKHbfRDaIQ_AUIEigB&biw=1280&bih=666&dpr=2)。
 
-一款极简暗色的 [Termux](https://termux.dev/) 配色方案，灵感源自[东京夜晚的城市光影](https://www.google.com/search?q=tokyo+night&newwindow=1&sxsrf=ACYBGNRiOGCstG_Xohb8CgG5UGwBRpMIQg:1571032079139&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiayIfIhpvlAhUGmuAKHbfRDaIQ_AUIEigB&biw=1280&bih=666&dpr=2)。
+改编自原版 [Visual Studio Code 的 Tokyo Night 主题](https://github.com/enkia/tokyo-night-vscode-theme) 和 [Kitty 的 Tokyo Night 主题](https://github.com/davidmathers/tokyo-night-kitty-theme)。
 
-改编自 [Visual Studio Code 的 Tokyo Night 主题](https://github.com/enkia/tokyo-night-vscode-theme)和 [Kitty 终端的 Tokyo Night 主题](https://github.com/davidmathers/tokyo-night-kitty-theme)。
+## 安装
 
-## 安装方法
+```bash
+# 首先克隆此仓库
+$ git clone https://github.com/fywmjj/tokyo-night-termux-theme.git
 
-1. 将配色方案保存至 `~/.termux/colors.properties`
-2. 运行 `termux-reload-settings` 应用主题
+# 接下来将工作目录切换到仓库
+$ cd tokyo-night-termux-theme/
 
-## 配色方案
+# 赋予安装脚本“可执行”权限
+$ chmod +x ./install.sh # 如果无法执行，请尝试使用 "sudo"
 
-```properties
-color0=#414868
-color1=#f7768e
-color2=#73daca
-color3=#e0af68
-color4=#7aa2f7
-color5=#bb9af7
-color6=#7dcfff
-color7=#c0caf5
-color8=#414868
-color9=#f7768e
-color10=#73daca
-color11=#e0af68
-color12=#7aa2f7
-color13=#bb9af7
-color14=#7dcfff
-color15=#c0caf5
-background=#1a1b26
-foreground=#a9b1d6
-cursor=#c0caf5
+# 运行脚本开始安装
+$ ./install.sh
 ```
 
-![Termux 东京夜景主题预览](./screenshot.png)
+## 预览
 
-## 许可证
+![Tokyo Night theme for Termux - Preview](./screenshot.png)
 
-本主题基于 MIT 许可证发布。
+## 许可协议
+
+本主题基于 MIT 许可协议发布。
