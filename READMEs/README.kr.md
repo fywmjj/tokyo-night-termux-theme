@@ -22,7 +22,7 @@ $ ./install.sh
 
 ## 미리보기
 
-![Tokyo Night theme for Termux - Preview](./screenshot.png)
+![Tokyo Night theme for Termux - Preview](../screenshot.png)
 
 ## 라이선스
 
